@@ -1,6 +1,6 @@
 #支持私库
-ikiler/dinky:1.1.0-flink1.17
+dinkydocker/dinky-standalone-server:1.1.0-flink1.19
 dinky-mysql-server:1.1.0
-flink:1.17-scala_2.12-java8
+flink:1.19-scala_2.12-java8
 #支持指定架构
 
