@@ -1,4 +1,6 @@
 #支持私库
-opengrok/docker
+ikiler/dinky:1.1.0-flink1.17
+dinky-mysql-server:1.1.0
+flink:1.17-scala_2.12-java8
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+
