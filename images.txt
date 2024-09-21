@@ -1,11 +1,12 @@
 #支持私库
-influxdb:1.8
-influxdb:2.2.0
-grafana/k6
-prom/node-exporter
-google/cadvisor
-iamseth/oracledb_exporter
-nginx
-quay.io/martinhelmich/prometheus-nginxlog-exporter
+apache/dolphinscheduler-standalone-server:3.1.9
+#influxdb:1.8
+#influxdb:2.2.0
+#grafana/k6
+#prom/node-exporter
+#google/cadvisor
+#iamseth/oracledb_exporter
+#nginx
+#quay.io/martinhelmich/prometheus-nginxlog-exporter
 #支持指定架构
 
