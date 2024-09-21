@@ -1,5 +1,5 @@
 #支持私库
-grafana/loki:v3.2.0
+grafana/loki
 grafana/promtail
 #apache/dolphinscheduler-standalone-server:3.1.9
 #influxdb:1.8
