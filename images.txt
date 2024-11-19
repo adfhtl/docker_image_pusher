@@ -1,5 +1,7 @@
 #支持私库
-grafana/k6:master-with-browser
+prometheus/json-exporter
+
+#grafana/k6:master-with-browser
 #grafana/loki
 #grafana/promtail
 #apache/dolphinscheduler-standalone-server:3.1.9
