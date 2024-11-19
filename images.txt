@@ -1,5 +1,5 @@
 #支持私库
-prometheus/json-exporter
+quay.io/prometheuscommunity/json-exporter
 
 #grafana/k6:master-with-browser
 #grafana/loki
