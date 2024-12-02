@@ -1,6 +1,6 @@
 #支持私库
 #quay.io/prometheuscommunity/json-exporter
-quay.io/oliver006/redis_exporter:1.66.0
+quay.io/oliver006/redis_exporter:v1.66.0
 #grafana/k6:master-with-browser
 #grafana/loki
 #grafana/promtail
