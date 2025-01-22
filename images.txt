@@ -1,5 +1,6 @@
 #支持私库
-docker.io/redis:7.4.2
+docker.io/mysql:8.4.44
+#docker.io/redis:7.4.2
 #docker.io/mysql:5.7.44
 #docker.io/nginx:1.26.0
 #bitnami/postgresql:15.2.0
