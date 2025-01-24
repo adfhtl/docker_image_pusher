@@ -1,5 +1,6 @@
 #支持私库
-dinkydocker/dinky-standalone-server:1.2.0-flink1.20
+flink:1.20-scala_2.12-java8
+#dinkydocker/dinky-standalone-server:1.2.0-flink1.20
 #grafana/grafana-enterprise:11.4.0
 #docker.io/mysql:8.0.40
 #mysql:8.4.3
