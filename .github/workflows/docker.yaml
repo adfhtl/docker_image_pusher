@@ -75,10 +75,12 @@ jobs:
                 modified_string="${original_string/#SEARCH/}"
                 echo "Modified string: ${modified_string}"
                 IMAGE_NAME=${modified_string}
-                TAGS=$(curl -s "https://registry.hub.docker.com/v1/repositories/${IMAGE_NAME}/tags" | jq -r '.[].name')
+                #TAGS=$(curl -s "https://registry.hub.docker.com/v1/repositories/${IMAGE_NAME}/tags" | jq -r '.[].name')
               
-                echo "Available versions:"
-                echo "${TAGS}"
+                #echo "Available versions:"
+                #echo "${TAGS}"
+                docker search ${IMAGE_NAME}
+                
                 continue
             fi
             # 获取镜像的完整名称，例如kasmweb/nginx:1.25.3（命名空间/镜像名:版本号）
