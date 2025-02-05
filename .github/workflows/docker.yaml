@@ -67,7 +67,20 @@ jobs:
             if echo "$line" | grep -q '^\s*#'; then
                 continue
             fi
-            
+            if [[ "$line" == SEARCH* ]]; then
+                original_string="$line"  # 假设这是你要处理的字符串
+                echo "Original string: ${original_string}"
+                
+                # 使用 Bash 的参数扩展去掉开头的字母 'A'
+                modified_string="${original_string/#SEARCH/}"
+                echo "Modified string: ${modified_string}"
+                IMAGE_NAME=${modified_string}
+                TAGS=$(curl -s "https://registry.hub.docker.com/v1/repositories/${IMAGE_NAME}/tags" | jq -r '.[].name')
+              
+                echo "Available versions:"
+                echo "${TAGS}"
+                continue
+            fi
             # 获取镜像的完整名称，例如kasmweb/nginx:1.25.3（命名空间/镜像名:版本号）
             image=$(echo "$line" | awk '{print $NF}')
             # 将@sha256:等字符删除
