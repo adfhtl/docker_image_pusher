@@ -1,5 +1,6 @@
 #支持私库
-SEARCHmysql
+#SEARCHmysql
+centos:8
 #flink:1.20-scala_2.12-java8
 #dinkydocker/dinky-standalone-server:1.2.0-flink1.20
 #grafana/grafana-enterprise:11.4.0
