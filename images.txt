@@ -1,6 +1,7 @@
 #支持私库
 #SEARCHmysql
-docker.io/nginx:1.26.3
+nacos/nacos-server:2.5.0
+#docker.io/nginx:1.26.3
 #centos:8
 #flink:1.20-scala_2.12-java8
 #dinkydocker/dinky-standalone-server:1.2.0-flink1.20
