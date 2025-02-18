@@ -1,7 +1,12 @@
 #支持私库
-langgenius/dify-web:0.6.13         
-langgenius/dify-api:0.6.13  
-langgenius/dify-sandbox:0.2.1 
+#postgres:15-alpine                 
+#nginx:1.27.4          
+#ubuntu/squid:6.13
+#redis:6-alpine                 
+semitechnologies/weaviate:1.19.0   
+#langgenius/dify-web:0.6.13         
+#langgenius/dify-api:0.6.13  
+#langgenius/dify-sandbox:0.2.1 
 #SEARCHmysql
 #nacos/nacos-server
 #docker.io/nginx:1.26.3
