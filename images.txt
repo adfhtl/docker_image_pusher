@@ -1,6 +1,6 @@
 #支持私库
-langgenius/dify-api:1.0.0
-langgenius/dify-web:1.0.0
+langgenius/dify-api
+langgenius/dify-web
 #postgres:15-alpine                 
 #nginx:1.27.4          
 #ubuntu/squid
