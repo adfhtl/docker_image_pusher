@@ -1,6 +1,10 @@
 #支持私库
-langgenius/dify-sandbox:0.2.10
-langgenius/dify-plugin-daemon:0.0.1-local
+certbot/certbot
+langgenius/qdrant:v1.7.3
+pgvector/pgvector:pg16
+tensorchord/pgvecto-rs:pg16-v0.3.0
+#langgenius/dify-sandbox:0.2.10
+#langgenius/dify-plugin-daemon:0.0.1-local
 #langgenius/dify-api
 #langgenius/dify-web
 #postgres:15-alpine                 
